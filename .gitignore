@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# Secrets - never commit these. Each half has its own .env.example to copy.
+.env
+.env.local
